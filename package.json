@@ -1,0 +1,30 @@
+{
+  "name": "2a_atividade_poo",
+  "version": "1.0.0",
+  "description": "2a atividade de POO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azinth/2a_atividade_POO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azinth/2a_atividade_POO/issues"
+  },
+  "homepage": "https://github.com/Azinth/2a_atividade_POO#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.14.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
