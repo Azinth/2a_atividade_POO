@@ -43,7 +43,7 @@ class Pessoa{
 let nomeP = prompt('digite seu nome: ')
 let idade = parseInt(prompt('digite a sua idade: '))
 
-let pessoa = new Pessoa(nomeP, idade) //esse new serve para adicionar o novo objeto, pq podem haver outros.
+let pessoa = new Pessoa(nomeP, idade)
 
 console.log(`olá ${nomeP}!`)
 pessoa.idadeMeses()
